@@ -1,0 +1,21 @@
+
+<meta charset = "utf-8">
+
+<script>
+	
+	function pulaLinha() {
+		document.write("<br><hr>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	} 
+
+	var numero = parseInt(prompt("Digite o número que deseja saber a tabuada. "));
+	for( var contador =1; contador <= 10; contador++) {
+		mostra( numero * contador);
+	}
+
+	mostra("Fim da ação. ")
+</script>

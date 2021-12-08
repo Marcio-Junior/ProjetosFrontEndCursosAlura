@@ -1,0 +1,58 @@
+
+<meta charset = "utf-8">
+<h3>Álcool ou Gasolina</h3>
+<script>
+	var tanqCarro = 40;
+	var caminhoGasolina = 480;
+	var consumoGasolina = 480/40;
+	document.write("A quantidade de km/l foi de" + consumoGasolina);
+	document.write("<hr>");
+
+</script>
+
+<script>
+	var tanqAlcool = 40;
+	var caminhoComAlcool = 300;
+	var consumoAlcool = caminhoComAlcool / tanqAlcool;
+	document.write("A quantidade de km/l é de: " + consumoAlcool);
+	document.write("<hr>");
+</script>
+
+<script>
+	var tanqCarro = 80;
+	var distanciaPercorridaTanq = 350;
+	var distanciaPorLitro = distanciaPercorridaTanq / tanqCarro;
+	document.write("A distância percorrida por litro litro é de :" + Math.round(distanciaPorLitro) + "km");
+	document.write("<hr>");
+</script>
+
+<script>
+	function pulaLinha(){
+		document.write("<br><hr>");
+	}
+
+	var idadeMarcio = 35;
+	var idadePedro = 25;
+	document.write(" A idade de Marcio é de " + idadeMarcio + "anos");
+	pulaLinha();
+	document.write(" A idade de Pedro é de " + idadePedro + "anos;");
+	document.write("<hr>");
+</script>
+
+<script>
+
+	function pulaLinha(){
+		document.write("<br><br><hr>");
+
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+
+	mostra("Marcio tem 35 anos");
+	mostra("Carolina tem 26 anos");
+	mostra("Fernanda tem 28 anos");
+</script>

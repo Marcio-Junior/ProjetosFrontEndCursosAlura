@@ -1,0 +1,22 @@
+<meta charset = "utf-8">
+
+<script>
+	
+	function pulaLinha() {
+		document.write("<br><hr>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	var numero = parseInt(prompt("Digite um número. "));
+	var i = 0;
+
+	while( i < 11) {
+		mostra( numero * i);
+		i++;
+	}
+
+	mostra("Fim da ação. ") 
+	</script> 
